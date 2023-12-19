@@ -31,7 +31,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about', {
     title: 'About',
-    description: `Elmir Ismayilzada − Frontend Engineer • Skilled in JavaScript, TypeScript, Vue.js, Nuxt.js, Node.js`,
+    description: `Elmir Ismayilzada − Frontend Engineer • Skilled in JavaScript, TypeScript, Vue.js, Nuxt.js and Node.js`,
     author: 'Elmir Ismayilzada'
   })
 })
