@@ -16,7 +16,7 @@ const displayLoading = (isVisible) => {
 };
 
 const fetchWeatherData = (location) => {
-  return fetch(`http://localhost:3000/weather?address=${location}`)
+  return fetch(`/weather?address=${location}`)
     .then(response => response.json())
     .catch(error => {
       console.error(error);
